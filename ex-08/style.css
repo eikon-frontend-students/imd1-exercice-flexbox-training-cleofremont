@@ -2,3 +2,46 @@
 /* Il n'y pas de solution unique, utilisez les propriétés Flexbox que vous jugez appropriées. */
 /* N'oubliez pas de tester le rendu en responsive ! */
 /* Aucun changement n'est à faire dans le HTML. */
+
+.arena {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  /* 🦊 Active Flexbox sur l'arena. */
+  /* Répartis les items sur toute la largeur. */
+  /* Aligne-les verticalement au centre. */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item--content {
+  flex-grow: 1;
+  min-width: 157px;
+}
