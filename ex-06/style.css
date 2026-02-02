@@ -1,9 +1,12 @@
 .arena {
+  display: flex;
+  align-items: center;
   /* 🦊 Active Flexbox sur l'arena. */
   /* Aligne les items au centre sur l'axe vertical. */
 }
 
 .item--special {
+  align-self: flex-start;
   /* 🦊 Donne un alignement différent à cet item. */
 }
 

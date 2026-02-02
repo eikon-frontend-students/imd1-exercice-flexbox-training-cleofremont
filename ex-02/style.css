@@ -1,4 +1,7 @@
 .arena {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* 🦊 Active Flexbox sur l'arena. */
   /* Répartis les items sur toute la largeur. */
   /* Aligne-les verticalement au centre. */
